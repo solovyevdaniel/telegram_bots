@@ -5,7 +5,6 @@ import requests
 TOKENS_JSON = 'tokens.json'
 BOT = 'vot_i_pogovorili_bot'
 API_URL = "https://api.telegram.org/bot{bot_token}/"
-MyURL = "https://example.com/hook"
 
 
 with open(TOKENS_JSON) as tokens_json:
